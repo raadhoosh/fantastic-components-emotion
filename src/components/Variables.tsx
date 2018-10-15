@@ -47,13 +47,21 @@ declare namespace Variables {
     /**
      * @description it is props for button component
      */
-    interface InputّProps {
+    interface InputProps {
         backgroundColor?: string;
         color?: string;
         margin?: string;
         small?: boolean;
         large?: boolean;
         noShadow?: boolean;
+    }
+
+    /**
+     * @description it is props for code component
+     */
+    interface CodeProps {
+        backgroundColor?: string;
+        children?: any
     }
 }
 export default Variables;

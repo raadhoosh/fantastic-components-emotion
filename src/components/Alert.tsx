@@ -15,6 +15,11 @@ const Alert = styled('div')(
             base_alert.color = props.color ? props.color : props.theme.color.primary_dark;
             return base_alert;
         }
+        if (props.secondary) {
+            base_alert.backgroundColor = props.theme.color.secondary;
+            base_alert.color = props.color ? props.color : props.theme.color.secondary_dark;
+            return base_alert;
+        }
         if (props.success) {
             base_alert.backgroundColor = props.theme.color.success;
             base_alert.color = props.color ? props.color : props.theme.color.success_dark;

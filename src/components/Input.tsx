@@ -8,7 +8,7 @@ function hexToRgb(hex: string) {
 }
 
 const Input = styled('input')(
-    (props: (Variables.InputّProps | any)) => {
+    (props: (Variables.InputProps | any)) => {
         const css = {
             'cursor': 'auto',
             'display': 'block',

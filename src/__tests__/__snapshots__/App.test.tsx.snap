@@ -1,22 +1,66 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders with correct styles 1`] = `
-<div
-  className="App"
->
-  <p
-    className="App-intro"
-  >
-    To get started, edit 
-    <code>
-      src/App.tsx
-    </code>
-     and save to reload.
-  </p>
-  <div
-    className="css-14svo58"
-  >
-     This is a primary alert it out! 
+<div>
+  <div>
+    <h1>
+      Alerts
+    </h1>
+    <p>
+      Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
+    </p>
+    <h2>
+      Examples
+    </h2>
+    <p>
+      <div
+        className="css-1nme5ig"
+      >
+         This is a primary alert it out! 
+      </div>
+      <div
+        className="css-1il24if"
+      >
+         This is a secondary alert it out! 
+      </div>
+      <div
+        className="css-1b7c8wu"
+      >
+         This is a warning alert it out! 
+      </div>
+      <div
+        className="css-6bxdoe"
+      >
+         This is a light alert it out! 
+      </div>
+      <div
+        className="css-vkbn7v"
+      >
+         This is a success alert it out! 
+      </div>
+      <div
+        className="css-ts6w2q"
+      >
+         This is a info alert it out! 
+      </div>
+      <div
+        className="css-86225v"
+      >
+         This is a danger alert it out! 
+      </div>
+    </p>
+    <div>
+      <code
+        className="css-1hhyawn"
+        data-lang="html"
+      >
+        <pre>
+                
+          &lt;Alert margin={'10px'} danger={true} &gt; This is a danger alert it out! &lt;/Alert&gt;
+           
+        </pre>
+      </code>
+    </div>
   </div>
 </div>
 `;

@@ -2,7 +2,7 @@
 
 exports[`renders with correct styles 1`] = `
 <div
-  className="css-1d4tdw3"
+  className="css-p9vs3f"
 >
   hi test
 </div>
