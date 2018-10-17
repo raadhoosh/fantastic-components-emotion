@@ -36,7 +36,7 @@ const Button = styled('button')(
         if (props.primary) {
             btn.backgroundColor = props.theme.color.primary;
             if (!props.noShadow) {
-                btn['&:focus,:hover'] = {
+                btn['&:hover'] = {
                     boxShadow: `0 0 0 0.2rem rgba(${hexToRgb(props.theme.color.primary)},.5)`
                 };
             }
@@ -45,7 +45,7 @@ const Button = styled('button')(
         if (props.success) {
             btn.backgroundColor = props.theme.color.success;
             if (!props.noShadow) {
-                btn['&:focus,:hover'] = {
+                btn['&:hover'] = {
                     boxShadow: `0 0 0 0.2rem rgba(${hexToRgb(props.theme.color.success)},.5)`
                 };
             }
@@ -54,7 +54,7 @@ const Button = styled('button')(
         if (props.info) {
             btn.backgroundColor = props.theme.color.info;
             if (!props.noShadow) {
-                btn['&:focus,:hover'] = {
+                btn['&:hover'] = {
                     boxShadow: `0 0 0 0.2rem rgba(${hexToRgb(props.theme.color.info)},.5)`
                 };
             }
@@ -63,7 +63,7 @@ const Button = styled('button')(
         if (props.danger) {
             btn.backgroundColor = props.theme.color.danger;
             if (!props.noShadow) {
-                btn['&:focus,:hover'] = {
+                btn['&:hover'] = {
                     boxShadow: `0 0 0 0.2rem rgba(${hexToRgb(props.theme.color.danger)},.5)`
                 };
             }
@@ -72,7 +72,7 @@ const Button = styled('button')(
         if (props.warning) {
             btn.backgroundColor = props.theme.color.warning;
             if (!props.noShadow) {
-                btn['&:focus,:hover'] = {
+                btn['&:hover'] = {
                     boxShadow: `0 0 0 0.2rem rgba(${hexToRgb(props.theme.color.warning)},.5)`
                 };
             }
@@ -82,7 +82,7 @@ const Button = styled('button')(
             btn.color = props.color ? props.color : '#000';
             btn.backgroundColor = props.theme.color.light;
             if (!props.noShadow) {
-                btn['&:focus,:hover'] = {
+                btn['&:hover'] = {
                     boxShadow: `0 0 0 0.2rem rgba(${hexToRgb(props.theme.color.light)},.5)`
                 };
             }
@@ -91,7 +91,7 @@ const Button = styled('button')(
         if (props.dark) {
             btn.backgroundColor = props.theme.color.dark;
             if (!props.noShadow) {
-                btn['&:focus,:hover'] = {
+                btn['&:hover'] = {
                     boxShadow: `0 0 0 0.2rem rgba(${hexToRgb(props.theme.color.dark)},.5)`
                 };
             }
@@ -100,7 +100,7 @@ const Button = styled('button')(
 
         btn.backgroundColor = props.backgroundColor ? props.backgroundColor : props.theme.color.primary;
         if (!props.noShadow) {
-            btn['&:focus,:hover'] = {
+            btn['&:hover'] = {
                 boxShadow: `0 0 0 0.2rem rgba(${hexToRgb(btn.backgroundColor)},.5)`
             };
         }
