@@ -22,7 +22,8 @@ export interface Theme {
     size: number,
     family: string,
   },
-  darken(_color?: string): void,
+  darken(_color?: string): string,
+  hexToRgba(hex: string, a?: number): string,
 }
 
 export default styled as CreateStyled<Theme>;

@@ -27,10 +27,13 @@ const mainTheme: Theme = {
         size: 16,
         family: '"Roboto"',
     },
-    darken(_color?: string) {
+    darken: (_color?: string) => {
         return color(_color)
             .darken(0.03)
             .hex();
+    },
+    hexToRgba: (hex: string, a: number) => {
+        return color(hex).fade(a ? a : 0.5).string();
     }
 };
 
